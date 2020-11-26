@@ -10,6 +10,8 @@ A variety of models and features were created and tested for this competition. I
 
 A Random Forest Classifier was trained using a part of the train dataset. The model was initially evaluated using its accuracy and AUC (Area under the ROC Curve) scores. It was then hyper-tuned via matplotlib and sklearn. Seaborn was also used throughout the analysis to visualise the data.
 
+Please note that due to the high randomness of the Titanic incident, this code was run a multitude of times to find the best parameters. This is why the code does not necessarily reflect what was selected for the final model.
+
 The following files are included in this repo:
 
 * `kaggle-titanic.ipynb`: the code
